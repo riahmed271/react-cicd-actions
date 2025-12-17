@@ -38,5 +38,7 @@ jobs:
               run:  node -v
             - name: Install Dependecies
               run: npm ci
+            - name: Run Build Script 
+              run: npm run build
             - name: Deploy status
               run: echo "Deployment Successfully!"
